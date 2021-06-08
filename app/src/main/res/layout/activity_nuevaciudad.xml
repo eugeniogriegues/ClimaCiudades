@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+    <EditText
+            android:text=""
+            android:layout_width="306dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/leerCiudad" android:layout_marginTop="20dp"
+            android:layout_marginBottom="150dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/buttonNueva" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" android:layout_marginEnd="20dp"
+            app:layout_constraintHorizontal_bias="0.076" android:inputType="text"
+            android:autofillHints="" tools:targetApi="o"/>
+    <Button
+            android:text="@string/buttonNueva"
+            android:layout_width="212dp"
+            android:layout_height="72dp"
+            android:id="@+id/buttonNueva"
+            android:background="@color/colorAccent"
+            app:layout_constraintTop_toBottomOf="@+id/leerCiudad" android:layout_marginBottom="20dp"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="28dp" android:onClick="volveraMain"/>
+</android.support.constraint.ConstraintLayout>

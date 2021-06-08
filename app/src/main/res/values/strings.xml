@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Clima Ciudades</string>
+
+    <string name="shared_preferences_name">mispreferencias</string>
+    <string name="buttonQuitar">RESET</string>
+    <string name="textview">TextView</string>
+    <string name="contentDescription">todo</string>
+    <string name="buttonNueva">AGREGAR</string>
+    <string name="textviewnuevaciudad">***** Ingrese el nombre de una ciudad *****</string>
+    <string name="opcionMenu">AGREGAR CIUDAD</string>
+</resources>
+
+
+
+
